@@ -1,0 +1,7 @@
+/Users/givonnefulton/_dev/vs/_test/AzureKeyVaultTest/WebApiKeyVaultTest/obj/Debug/net6.0/WebApiKeyVaultTest.csproj.AssemblyReference.cache
+/Users/givonnefulton/_dev/vs/_test/AzureKeyVaultTest/WebApiKeyVaultTest/obj/Debug/net6.0/WebApiKeyVaultTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/givonnefulton/_dev/vs/_test/AzureKeyVaultTest/WebApiKeyVaultTest/obj/Debug/net6.0/WebApiKeyVaultTest.AssemblyInfoInputs.cache
+/Users/givonnefulton/_dev/vs/_test/AzureKeyVaultTest/WebApiKeyVaultTest/obj/Debug/net6.0/WebApiKeyVaultTest.AssemblyInfo.cs
+/Users/givonnefulton/_dev/vs/_test/AzureKeyVaultTest/WebApiKeyVaultTest/obj/Debug/net6.0/WebApiKeyVaultTest.csproj.CoreCompileInputs.cache
+/Users/givonnefulton/_dev/vs/_test/AzureKeyVaultTest/WebApiKeyVaultTest/obj/Debug/net6.0/WebApiKeyVaultTest.MvcApplicationPartsAssemblyInfo.cs
+/Users/givonnefulton/_dev/vs/_test/AzureKeyVaultTest/WebApiKeyVaultTest/obj/Debug/net6.0/WebApiKeyVaultTest.MvcApplicationPartsAssemblyInfo.cache
