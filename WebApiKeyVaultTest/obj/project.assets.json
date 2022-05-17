@@ -950,24 +950,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/givonnefulton/.nuget/packages/": {}
+    "C:\\Users\\G\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/givonnefulton/_dev/vs/_test/AzureKeyVaultTest/WebApiKeyVaultTest/WebApiKeyVaultTest.csproj",
+      "projectUniqueName": "C:\\_dev\\vs2022\\_Test\\AzureKeyVaultTest\\WebApiKeyVaultTest\\WebApiKeyVaultTest.csproj",
       "projectName": "WebApiKeyVaultTest",
-      "projectPath": "/Users/givonnefulton/_dev/vs/_test/AzureKeyVaultTest/WebApiKeyVaultTest/WebApiKeyVaultTest.csproj",
-      "packagesPath": "/Users/givonnefulton/.nuget/packages/",
-      "outputPath": "/Users/givonnefulton/_dev/vs/_test/AzureKeyVaultTest/WebApiKeyVaultTest/obj/",
+      "projectPath": "C:\\_dev\\vs2022\\_Test\\AzureKeyVaultTest\\WebApiKeyVaultTest\\WebApiKeyVaultTest.csproj",
+      "packagesPath": "C:\\Users\\G\\.nuget\\packages\\",
+      "outputPath": "C:\\_dev\\vs2022\\_Test\\AzureKeyVaultTest\\WebApiKeyVaultTest\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/givonnefulton/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\G\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1029,7 +1035,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

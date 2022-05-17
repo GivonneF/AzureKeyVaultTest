@@ -11,7 +11,7 @@ create pfx: `openssl pkcs12 -export -out localhost.pfx -inkey localhost.key -in 
 
 - Step 1
 
-New-SelfSignedCertificate -Subject "localhost" -TextExtension @("2.5.29.17={text}DNS=localhost&IPAddress=127.0.0.1&IPAddress=::1") -CertStoreLocation "Cert:\LocalMachine\My\" -KeyExportPolicy Exportable -FriendlyName "localhost-SSC"
+New-SelfSignedCertificate -Subject "localhost" -TextExtension @(DNS=localhost&IPAddress=127.0.0.1&IPAddress=::1") -CertStoreLocation "Cert:\LocalMachine\My\" -KeyExportPolicy Exportable -FriendlyName "localhost-SSC"
 
 - Step 2
 
@@ -31,3 +31,13 @@ https://docs.microsoft.com/en-us/powershell/module/pki/export-pfxcertificate?vie
 
 https://blog.jongallant.com/2021/08/azure-identity-101/
 https://docs.microsoft.com/en-us/dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet
+
+
+## Windows 2
+
+New-SelfSignedCertificate -KeyExportPolicy Exportable -CertStoreLocation Cert:\LocalMachine\My -Subject "localhost" -DnsName "localhost" -FriendlyName "local-key-vault" -NotAfter (Get-Date).AddYears(10);
+
+DBB8C0F93F9C5D0CE05F4FB452E44CEAB315CF92
+
+$mypwd = ConvertTo-SecureString -String "LeastMango2" -Force -AsPlainText
+Export-PfxCertificate -Cert Cert:\localmachine\my\DBB8C0F93F9C5D0CE05F4FB452E44CEAB315CF92 -filepath local-key-vault.pfx -Password $mypwd

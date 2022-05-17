@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "AzureKeyVaultTest/1.0.0": {
         "dependencies": {
+          "Azure.Extensions.AspNetCore.Configuration.Secrets": "1.2.2",
           "Azure.Identity": "1.6.0",
           "Azure.Security.KeyVault.Certificates": "4.3.0",
           "Azure.Security.KeyVault.Keys": "4.3.0",
@@ -32,6 +33,19 @@
           "lib/net5.0/Azure.Core.dll": {
             "assemblyVersion": "1.24.0.0",
             "fileVersion": "1.2400.22.20404"
+          }
+        }
+      },
+      "Azure.Extensions.AspNetCore.Configuration.Secrets/1.2.2": {
+        "dependencies": {
+          "Azure.Core": "1.24.0",
+          "Azure.Security.KeyVault.Secrets": "4.3.0",
+          "Microsoft.Extensions.Configuration": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Extensions.AspNetCore.Configuration.Secrets.dll": {
+            "assemblyVersion": "1.2.2.0",
+            "fileVersion": "1.200.222.20502"
           }
         }
       },
@@ -477,7 +491,7 @@
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
             "rid": "win",
@@ -544,6 +558,13 @@
       "sha512": "sha512-+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
       "path": "azure.core/1.24.0",
       "hashPath": "azure.core.1.24.0.nupkg.sha512"
+    },
+    "Azure.Extensions.AspNetCore.Configuration.Secrets/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-veuqVD+Xr9/EOj9vTXBKvoh2GqObb6r+oK99L6rasJDOAJCTwwf6JqcOqXeNGnIDP0k0CcjfQSN4tY4nC7EHkg==",
+      "path": "azure.extensions.aspnetcore.configuration.secrets/1.2.2",
+      "hashPath": "azure.extensions.aspnetcore.configuration.secrets.1.2.2.nupkg.sha512"
     },
     "Azure.Identity/1.6.0": {
       "type": "package",
